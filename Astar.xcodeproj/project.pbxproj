@@ -9,14 +9,27 @@
 /* Begin PBXBuildFile section */
 		2EBF33931700EBAC0096D0FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF33921700EBAC0096D0FA /* Cocoa.framework */; };
 		2EBF339D1700EBAC0096D0FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF339B1700EBAC0096D0FA /* InfoPlist.strings */; };
-		2EBF339F1700EBAC0096D0FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF339E1700EBAC0096D0FA /* main.m */; };
 		2EBF33A31700EBAC0096D0FA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF33A11700EBAC0096D0FA /* Credits.rtf */; };
-		2EBF33A61700EBAC0096D0FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33A51700EBAC0096D0FA /* AppDelegate.m */; };
 		2EBF33A91700EBAC0096D0FA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF33A71700EBAC0096D0FA /* MainMenu.xib */; };
 		2EBF33B11700EBAC0096D0FA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF33B01700EBAC0096D0FA /* SenTestingKit.framework */; };
 		2EBF33B21700EBAC0096D0FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF33921700EBAC0096D0FA /* Cocoa.framework */; };
 		2EBF33BA1700EBAC0096D0FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF33B81700EBAC0096D0FA /* InfoPlist.strings */; };
 		2EBF33BD1700EBAC0096D0FA /* AstarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33BC1700EBAC0096D0FA /* AstarTests.m */; };
+		2EBF33E51700EBDC0096D0FA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33C81700EBDC0096D0FA /* AppDelegate.mm */; };
+		2EBF33E61700EBDC0096D0FA /* AStar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33CA1700EBDC0096D0FA /* AStar.mm */; };
+		2EBF33E71700EBDC0096D0FA /* BufferObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33CC1700EBDC0096D0FA /* BufferObject.mm */; };
+		2EBF33E91700EBDC0096D0FA /* Creep.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33CF1700EBDC0096D0FA /* Creep.mm */; };
+		2EBF33EA1700EBDC0096D0FA /* glfont.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33D11700EBDC0096D0FA /* glfont.mm */; };
+		2EBF33EB1700EBDC0096D0FA /* glfont2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33D31700EBDC0096D0FA /* glfont2.mm */; };
+		2EBF33EC1700EBDC0096D0FA /* Grid.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33D51700EBDC0096D0FA /* Grid.mm */; };
+		2EBF33ED1700EBDC0096D0FA /* InputHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33D71700EBDC0096D0FA /* InputHandler.mm */; };
+		2EBF33EE1700EBDC0096D0FA /* loopTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33D91700EBDC0096D0FA /* loopTimer.mm */; };
+		2EBF33F01700EBDC0096D0FA /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33DB1700EBDC0096D0FA /* main.mm */; };
+		2EBF33F11700EBDC0096D0FA /* NewView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33DD1700EBDC0096D0FA /* NewView.mm */; };
+		2EBF33F41700EBDC0096D0FA /* Outputs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF33E11700EBDC0096D0FA /* Outputs.mm */; };
+		2EBF33F81700EEA30096D0FA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBF33F71700EEA30096D0FA /* OpenGL.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2EF2CBDC1701093B008010B4 /* ArialGL.glf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF2CBDB1701093B008010B4 /* ArialGL.glf */; };
+		2EF2CBDE17010A05008010B4 /* terrain.t in Resources */ = {isa = PBXBuildFile; fileRef = 2EF2CBDD17010A05008010B4 /* terrain.t */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +50,8 @@
 		2EBF33971700EBAC0096D0FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2EBF339A1700EBAC0096D0FA /* Astar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Astar-Info.plist"; sourceTree = "<group>"; };
 		2EBF339C1700EBAC0096D0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2EBF339E1700EBAC0096D0FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EBF33A01700EBAC0096D0FA /* Astar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Astar-Prefix.pch"; sourceTree = "<group>"; };
 		2EBF33A21700EBAC0096D0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2EBF33A41700EBAC0096D0FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2EBF33A51700EBAC0096D0FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2EBF33A81700EBAC0096D0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2EBF33AF1700EBAC0096D0FA /* AstarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBF33B01700EBAC0096D0FA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -49,6 +59,33 @@
 		2EBF33B91700EBAC0096D0FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EBF33BB1700EBAC0096D0FA /* AstarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AstarTests.h; sourceTree = "<group>"; };
 		2EBF33BC1700EBAC0096D0FA /* AstarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstarTests.m; sourceTree = "<group>"; };
+		2EBF33C61700EBDC0096D0FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../windowPractice/AppDelegate.h; sourceTree = "<group>"; };
+		2EBF33C81700EBDC0096D0FA /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../../windowPractice/AppDelegate.mm; sourceTree = "<group>"; };
+		2EBF33C91700EBDC0096D0FA /* AStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AStar.h; path = ../../windowPractice/AStar.h; sourceTree = "<group>"; };
+		2EBF33CA1700EBDC0096D0FA /* AStar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AStar.mm; path = ../../windowPractice/AStar.mm; sourceTree = "<group>"; };
+		2EBF33CB1700EBDC0096D0FA /* BufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BufferObject.h; path = ../../windowPractice/BufferObject.h; sourceTree = "<group>"; };
+		2EBF33CC1700EBDC0096D0FA /* BufferObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BufferObject.mm; path = ../../windowPractice/BufferObject.mm; sourceTree = "<group>"; };
+		2EBF33CE1700EBDC0096D0FA /* Creep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creep.h; path = ../../windowPractice/Creep.h; sourceTree = "<group>"; };
+		2EBF33CF1700EBDC0096D0FA /* Creep.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Creep.mm; path = ../../windowPractice/Creep.mm; sourceTree = "<group>"; };
+		2EBF33D01700EBDC0096D0FA /* glfont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glfont.h; path = ../../windowPractice/glfont.h; sourceTree = "<group>"; };
+		2EBF33D11700EBDC0096D0FA /* glfont.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = glfont.mm; path = ../../windowPractice/glfont.mm; sourceTree = "<group>"; };
+		2EBF33D21700EBDC0096D0FA /* glfont2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glfont2.h; path = ../../windowPractice/glfont2.h; sourceTree = "<group>"; };
+		2EBF33D31700EBDC0096D0FA /* glfont2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = glfont2.mm; path = ../../windowPractice/glfont2.mm; sourceTree = "<group>"; };
+		2EBF33D41700EBDC0096D0FA /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = ../../windowPractice/Grid.h; sourceTree = "<group>"; };
+		2EBF33D51700EBDC0096D0FA /* Grid.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Grid.mm; path = ../../windowPractice/Grid.mm; sourceTree = "<group>"; };
+		2EBF33D61700EBDC0096D0FA /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHandler.h; path = ../../windowPractice/InputHandler.h; sourceTree = "<group>"; };
+		2EBF33D71700EBDC0096D0FA /* InputHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = InputHandler.mm; path = ../../windowPractice/InputHandler.mm; sourceTree = "<group>"; };
+		2EBF33D81700EBDC0096D0FA /* loopTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loopTimer.h; path = ../../windowPractice/loopTimer.h; sourceTree = "<group>"; };
+		2EBF33D91700EBDC0096D0FA /* loopTimer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = loopTimer.mm; path = ../../windowPractice/loopTimer.mm; sourceTree = "<group>"; };
+		2EBF33DB1700EBDC0096D0FA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ../../windowPractice/main.mm; sourceTree = "<group>"; };
+		2EBF33DC1700EBDC0096D0FA /* NewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewView.h; path = ../../windowPractice/NewView.h; sourceTree = "<group>"; };
+		2EBF33DD1700EBDC0096D0FA /* NewView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NewView.mm; path = ../../windowPractice/NewView.mm; sourceTree = "<group>"; };
+		2EBF33E01700EBDC0096D0FA /* Outputs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Outputs.h; path = ../../windowPractice/Outputs.h; sourceTree = "<group>"; };
+		2EBF33E11700EBDC0096D0FA /* Outputs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Outputs.mm; path = ../../windowPractice/Outputs.mm; sourceTree = "<group>"; };
+		2EBF33E31700EBDC0096D0FA /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = structs.h; path = ../../windowPractice/structs.h; sourceTree = "<group>"; };
+		2EBF33F71700EEA30096D0FA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		2EF2CBDB1701093B008010B4 /* ArialGL.glf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ArialGL.glf; path = ../../../Desktop/ArialGL.glf; sourceTree = "<group>"; };
+		2EF2CBDD17010A05008010B4 /* terrain.t */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = terrain.t; path = ../../../Desktop/terrain.t; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBF33F81700EEA30096D0FA /* OpenGL.framework in Frameworks */,
 				2EBF33931700EBAC0096D0FA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +113,7 @@
 		2EBF33861700EBAB0096D0FA = {
 			isa = PBXGroup;
 			children = (
+				2EBF33F71700EEA30096D0FA /* OpenGL.framework */,
 				2EBF33981700EBAC0096D0FA /* Astar */,
 				2EBF33B51700EBAC0096D0FA /* AstarTests */,
 				2EBF33911700EBAC0096D0FA /* Frameworks */,
@@ -114,8 +153,9 @@
 		2EBF33981700EBAC0096D0FA /* Astar */ = {
 			isa = PBXGroup;
 			children = (
-				2EBF33A41700EBAC0096D0FA /* AppDelegate.h */,
-				2EBF33A51700EBAC0096D0FA /* AppDelegate.m */,
+				2EBF33F61700EBFC0096D0FA /* Headers */,
+				2EF2CBDF17010A71008010B4 /* Source Files */,
+				2EF2CBDA17010825008010B4 /* Resources */,
 				2EBF33A71700EBAC0096D0FA /* MainMenu.xib */,
 				2EBF33991700EBAC0096D0FA /* Supporting Files */,
 			);
@@ -127,7 +167,6 @@
 			children = (
 				2EBF339A1700EBAC0096D0FA /* Astar-Info.plist */,
 				2EBF339B1700EBAC0096D0FA /* InfoPlist.strings */,
-				2EBF339E1700EBAC0096D0FA /* main.m */,
 				2EBF33A01700EBAC0096D0FA /* Astar-Prefix.pch */,
 				2EBF33A11700EBAC0096D0FA /* Credits.rtf */,
 			);
@@ -151,6 +190,85 @@
 				2EBF33B81700EBAC0096D0FA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EBF33F61700EBFC0096D0FA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF33D41700EBDC0096D0FA /* Grid.h */,
+				2EBF33D01700EBDC0096D0FA /* glfont.h */,
+				2EBF33CE1700EBDC0096D0FA /* Creep.h */,
+				2EBF33E31700EBDC0096D0FA /* structs.h */,
+				2EBF33D61700EBDC0096D0FA /* InputHandler.h */,
+				2EBF33E01700EBDC0096D0FA /* Outputs.h */,
+				2EBF33DC1700EBDC0096D0FA /* NewView.h */,
+				2EBF33D81700EBDC0096D0FA /* loopTimer.h */,
+				2EBF33D21700EBDC0096D0FA /* glfont2.h */,
+				2EBF33CB1700EBDC0096D0FA /* BufferObject.h */,
+				2EBF33C91700EBDC0096D0FA /* AStar.h */,
+				2EBF33C61700EBDC0096D0FA /* AppDelegate.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		2EF2CBDA17010825008010B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2EF2CBDD17010A05008010B4 /* terrain.t */,
+				2EF2CBDB1701093B008010B4 /* ArialGL.glf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2EF2CBDF17010A71008010B4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF2CBE317010B16008010B4 /* Controllers */,
+				2EF2CBE217010AE4008010B4 /* OSX Interfacing */,
+				2EF2CBE117010AD1008010B4 /* Graphics */,
+				2EF2CBE017010A8D008010B4 /* Game Logic */,
+				2EBF33DB1700EBDC0096D0FA /* main.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2EF2CBE017010A8D008010B4 /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF33D51700EBDC0096D0FA /* Grid.mm */,
+				2EBF33CA1700EBDC0096D0FA /* AStar.mm */,
+				2EBF33CF1700EBDC0096D0FA /* Creep.mm */,
+			);
+			name = "Game Logic";
+			sourceTree = "<group>";
+		};
+		2EF2CBE117010AD1008010B4 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF33E11700EBDC0096D0FA /* Outputs.mm */,
+				2EBF33CC1700EBDC0096D0FA /* BufferObject.mm */,
+				2EBF33D11700EBDC0096D0FA /* glfont.mm */,
+				2EBF33D31700EBDC0096D0FA /* glfont2.mm */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		2EF2CBE217010AE4008010B4 /* OSX Interfacing */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF33DD1700EBDC0096D0FA /* NewView.mm */,
+				2EBF33C81700EBDC0096D0FA /* AppDelegate.mm */,
+			);
+			name = "OSX Interfacing";
+			sourceTree = "<group>";
+		};
+		2EF2CBE317010B16008010B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF33D91700EBDC0096D0FA /* loopTimer.mm */,
+				2EBF33D71700EBDC0096D0FA /* InputHandler.mm */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +345,8 @@
 				2EBF339D1700EBAC0096D0FA /* InfoPlist.strings in Resources */,
 				2EBF33A31700EBAC0096D0FA /* Credits.rtf in Resources */,
 				2EBF33A91700EBAC0096D0FA /* MainMenu.xib in Resources */,
+				2EF2CBDC1701093B008010B4 /* ArialGL.glf in Resources */,
+				2EF2CBDE17010A05008010B4 /* terrain.t in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +381,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EBF339F1700EBAC0096D0FA /* main.m in Sources */,
-				2EBF33A61700EBAC0096D0FA /* AppDelegate.m in Sources */,
+				2EBF33E51700EBDC0096D0FA /* AppDelegate.mm in Sources */,
+				2EBF33E61700EBDC0096D0FA /* AStar.mm in Sources */,
+				2EBF33E71700EBDC0096D0FA /* BufferObject.mm in Sources */,
+				2EBF33E91700EBDC0096D0FA /* Creep.mm in Sources */,
+				2EBF33EA1700EBDC0096D0FA /* glfont.mm in Sources */,
+				2EBF33EB1700EBDC0096D0FA /* glfont2.mm in Sources */,
+				2EBF33EC1700EBDC0096D0FA /* Grid.mm in Sources */,
+				2EBF33ED1700EBDC0096D0FA /* InputHandler.mm in Sources */,
+				2EBF33EE1700EBDC0096D0FA /* loopTimer.mm in Sources */,
+				2EBF33F01700EBDC0096D0FA /* main.mm in Sources */,
+				2EBF33F11700EBDC0096D0FA /* NewView.mm in Sources */,
+				2EBF33F41700EBDC0096D0FA /* Outputs.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +512,7 @@
 		2EBF33C11700EBAC0096D0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Astar/Astar-Prefix.pch";
@@ -394,6 +525,7 @@
 		2EBF33C21700EBAC0096D0FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Astar/Astar-Prefix.pch";
@@ -452,6 +584,7 @@
 				2EBF33C21700EBAC0096D0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EBF33C31700EBAC0096D0FA /* Build configuration list for PBXNativeTarget "AstarTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +593,7 @@
 				2EBF33C51700EBAC0096D0FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
