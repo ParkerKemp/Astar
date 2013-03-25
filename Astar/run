@@ -1,0 +1,3 @@
+#! /bin/sh
+
+./windower.app/Contents/MacOS/windower
