@@ -14,6 +14,7 @@ void Anode::init(Astar *a, location l, Anode *p){
 	calculateG();
 	}
 
+
 void Anode::calculateH(){
 	location d = astar->destination();
 	hCost = abs(d.x - _loc.x) + abs(d.y - _loc.y);
